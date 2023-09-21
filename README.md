@@ -1,30 +1,17 @@
-# time-series-stock-prices
-Time series forecasting for stock prices
+# Time Series Analysis of Nintendo Stock Prices: Uncovering Patterns in Market Volatility
 
-https://www.machinelearningplus.com/time-series/time-series-analysis-python/
-https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
+Accurate stock price prediction is difficult due to the numerous variables influencing markets such as economic indicators, geopolitical events, and the ever-fluctuating sentiment of investors. Amidst this complexity, gaming industry stocks stand out as particularly volatile due to rapidly changing consumer preferences, intense competition, and sensitivity to game release schedules. Nevertheless, the robust growth of the digital entertainment sector continues to attract investor interest. Hence, this project aims to develop a time series forecasting model for a prominent video game company.
 
-https://neptune.ai/blog/select-model-for-time-series-prediction-task
-https://neptune.ai/blog/arima-vs-prophet-vs-lstm
+## Scope
+This project aims to develop a time series forecasting model for Nintendo. Nintendo's significance in the gaming industry, iconic franchises, and market impact justify its selection for stock price analysis, offering insights into the broader gaming market.
 
-Decomposition:
-https://otexts.com/fpp2/components.html
-https://towardsdatascience.com/time-series-decomposition-8f39432f78f9
-https://towardsdatascience.com/seasonality-of-time-series-5b45b4809acd
-https://towardsdatascience.com/time-series-decomposition-in-python-8acac385a5b2
-https://medium.com/codex/time-series-data-decomposition-b51819f15e23
+## Performance metrics
+Closing price will be modelled in this data science project. This is a practical and widely accepted approach in data science projects related to stock market analysis as it reflects the market sentiment of a stock's value at the end of the trading day.
 
-Autocorrelation:
-https://www.youtube.com/watch?v=DeORzP0go5I
-https://www.youtube.com/watch?v=_tgB-ri9-8c
-https://towardsdatascience.com/a-step-by-step-guide-to-calculating-autocorrelation-and-partial-autocorrelation-8c4342b784e8#:~:text=We%20know%20that%20autocorrelation%20is,calculate%20the%20Pearson's%20correlation%20coefficients.
-https://www.itl.nist.gov/div898/handbook/eda/section3/eda35c.htm#:~:text=Although%20the%20time%20variable%2C%20X,Autocorrelation%20is%20a%20correlation%20coefficient.
+## Results
+<img src="./notebooks/figures/test_predictions.png" 
+     align="centre" 
+     width="400" />
 
-ARIMA:
-https://machinelearningmastery.com/grid-search-arima-hyperparameters-with-python/
-https://medium.com/@sandha.iitr/tuning-arima-for-forecasting-an-easy-approach-in-python-5f40d55184c4
-https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
-
-Prophet:
-https://www.geeksforgeeks.org/time-series-analysis-using-facebook-prophet/
-
+* Mean Absolute Percent Error: 0.0095
+* Root Mean Squared Error: 0.13107104752344542
