@@ -8,10 +8,27 @@ This project aims to develop a time series forecasting model for Nintendo. Ninte
 ## Performance metrics
 Closing price will be modelled in this data science project. This is a practical and widely accepted approach in data science projects related to stock market analysis as it reflects the market sentiment of a stock's value at the end of the trading day.
 
-## Results
+## **File structure**
+<pre>
+|- notebooks/
+   |- stock_price_forecast.ipynb
+   |- figures/
+|- time-series-stock-prices/
+   |- notes.py
+   |- config.py
+|- data/
+   |- raw/
+|- environment.yml
+|- README.md
+</pre>
+
+## Optimised model
+
 <img src="./notebooks/figures/test_predictions.png" 
      align="centre" 
-     width="400" />
+     width="500" />
 
-* Mean Absolute Percent Error: 0.0095
-* Root Mean Squared Error: 0.13107104752344542
+* Mean Absolute Percent Error: **0.95**
+* Root Mean Squared Error: **0.13**
+
+## Conclusion
