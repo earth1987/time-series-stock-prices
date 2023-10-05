@@ -30,5 +30,3 @@ Closing price will be modelled in this data science project. This is a practical
 
 * Mean Absolute Percent Error: **0.95**
 * Root Mean Squared Error: **0.13**
-
-## Conclusion
