@@ -4,15 +4,16 @@ Accurate stock price prediction is difficult due to the numerous variables influ
 
 ## **File structure**
 <pre>
+|- data/
+   |- raw/
 |- notebooks/
    |- stock_price_forecast.ipynb
    |- figures/
 |- time-series-stock-prices/
    |- notes.py
    |- config.py
-|- data/
-   |- raw/
-|- environment.yml
+|- .gitignore
+|- LICENSE
 |- README.md
 </pre>
 
